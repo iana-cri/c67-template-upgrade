@@ -1,0 +1,68 @@
+/**umb_name:h2*/
+h2 {
+	font-size: 48px;
+font-weight: bold;
+}
+
+/**umb_name:h3*/
+h3 {
+	font-size: 30px;
+font-weight: bold;
+}
+
+/**umb_name:h4*/
+h4 {
+	font-size: 24px;
+font-weight: bold;
+}
+
+/**umb_name:h5*/
+h5 {
+	font-size: 20px;
+font-weight: bold;
+}
+
+/**umb_name:h6*/
+h6 {
+	font-size: 18px;
+}
+
+/**umb_name:Petit*/
+small {
+	
+}
+
+/**umb_name:h2 bleu clair*/
+h2.text-couleur2 {
+	color:#37BAD3;
+font-size: 48px;
+font-weight: bold;
+}
+
+/**umb_name:h3 bleu clair*/
+h3.text-couleur2 {
+	color:#37BAD3;
+font-size: 30px;
+font-weight: bold;
+}
+
+/**umb_name:h4 bleu clair*/
+h4.text-couleur2 {
+	color:#37BAD3;
+font-size: 24px;
+font-weight: bold;
+}
+
+/**umb_name:h5 bleu clair*/
+h5.text-couleur2 {
+	color:#37BAD3;
+font-size: 20px;
+font-weight: bold;
+}
+
+/**umb_name:h6 bleu clair*/
+h6.text-couleur2 {
+	color:#37BAD3;
+font-size: 18px;
+font-weight: bold;
+}

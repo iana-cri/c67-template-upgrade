@@ -1,0 +1,14 @@
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<BlockGridEmployees>>;
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+    var content = Model?.Content;
+    if (content == null) { return; }
+}
+
+<section>
+    <div>
+        <div>
+            @content.Title
+        </div>
+    </div>
+</section>

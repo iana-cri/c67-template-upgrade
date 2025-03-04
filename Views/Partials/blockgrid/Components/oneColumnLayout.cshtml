@@ -1,0 +1,17 @@
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<Umbraco.Cms.Core.Models.Blocks.BlockGridItem<OneColumnLayout>>;
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+    var content = (ContentModels.OneColumnLayout)Model.Content;
+    var containerClass = content.FullWidthLayout ? "p-0 py-8" : "container py-8";
+    string bgColorClass = "";
+    if (content.BackgroundColor != null && !content.BackgroundColor.Label.IsNullOrWhiteSpace()) bgColorClass = "bg-" + content.BackgroundColor.Label;
+}
+
+<section id="@content.LayoutId" class="relative">
+    <div class="@containerClass @bgColorClass">
+        <div class="container">
+            @await Html.GetBlockGridItemAreasHtmlAsync(Model)
+        </div>
+    </div>
+</section>
+</section>

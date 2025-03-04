@@ -1,0 +1,10 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.BlockGridPage>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+}
+
+
+<div class="universal-page">
+    @await Html.GetBlockGridHtmlAsync(Model.DispositionPage)
+</div>
